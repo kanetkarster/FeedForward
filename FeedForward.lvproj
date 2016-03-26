@@ -28,6 +28,10 @@
 				<Property Name="utf.test.bind" Type="Str"></Property>
 				<Property Name="utf.vector.test.bind" Type="Str">F46F8262-286D-5FC8-CBD8-30C547DD21FA</Property>
 			</Item>
+			<Item Name="test_sigmoid.lvtest" Type="TestItem" URL="../test_sigmoid.lvtest">
+				<Property Name="utf.test.bind" Type="Str"></Property>
+				<Property Name="utf.vector.test.bind" Type="Str">9BAE1A6A-5E86-8DF4-3014-46D89B04EABB</Property>
+			</Item>
 			<Item Name="test_update.lvtest" Type="TestItem" URL="../test_update.lvtest">
 				<Property Name="utf.test.bind" Type="Str"></Property>
 				<Property Name="utf.vector.test.bind" Type="Str">6B2AB298-2260-1EC5-168E-7D516BB03184</Property>
@@ -92,7 +96,9 @@
 			<Property Name="crio.Type" Type="Str">myRIO-1900</Property>
 		</Item>
 		<Item Name="decision.vi" Type="VI" URL="../decision.vi"/>
+		<Item Name="FeedForward.vi" Type="VI" URL="../FeedForward.vi"/>
 		<Item Name="partial.vi" Type="VI" URL="../partial.vi"/>
+		<Item Name="sigmoid.vi" Type="VI" URL="../sigmoid.vi"/>
 		<Item Name="update.vi" Type="VI" URL="../update.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
