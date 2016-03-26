@@ -20,6 +20,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="tests" Type="Folder">
+			<Item Name="test_decision.lvtest" Type="TestItem" URL="../test_decision.lvtest">
+				<Property Name="utf.test.bind" Type="Str"></Property>
+				<Property Name="utf.vector.test.bind" Type="Str">270C4944-D015-FC8E-A94D-5401FE926F6F</Property>
+			</Item>
 			<Item Name="test_partial.lvtest" Type="TestItem" URL="../test_partial.lvtest">
 				<Property Name="utf.test.bind" Type="Str"></Property>
 				<Property Name="utf.vector.test.bind" Type="Str">F46F8262-286D-5FC8-CBD8-30C547DD21FA</Property>
@@ -87,6 +91,7 @@
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
 			<Property Name="crio.Type" Type="Str">myRIO-1900</Property>
 		</Item>
+		<Item Name="decision.vi" Type="VI" URL="../decision.vi"/>
 		<Item Name="partial.vi" Type="VI" URL="../partial.vi"/>
 		<Item Name="update.vi" Type="VI" URL="../update.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
