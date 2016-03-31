@@ -1,6 +1,61 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
+	<Property Name="utf.calculate.project.code.coverage" Type="Bool">true</Property>
+	<Property Name="utf.create.arraybrackets" Type="Str">[]</Property>
+	<Property Name="utf.create.arraythreshold" Type="UInt">100</Property>
+	<Property Name="utf.create.captureinputvalues" Type="Bool">true</Property>
+	<Property Name="utf.create.captureoutputvalues" Type="Bool">true</Property>
+	<Property Name="utf.create.codecoverage.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.codecoverage.value" Type="UInt">100</Property>
+	<Property Name="utf.create.editor.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.editor.path" Type="Path"></Property>
+	<Property Name="utf.create.nameseparator" Type="Str">/</Property>
+	<Property Name="utf.create.precision" Type="UInt">6</Property>
+	<Property Name="utf.create.repetitions" Type="UInt">1</Property>
+	<Property Name="utf.create.testpath.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.testpath.path" Type="Path"></Property>
+	<Property Name="utf.create.timeout.flag" Type="Bool">false</Property>
+	<Property Name="utf.create.timeout.value" Type="UInt">0</Property>
+	<Property Name="utf.create.type" Type="UInt">0</Property>
+	<Property Name="utf.enable.RT.VI.server" Type="Bool">false</Property>
+	<Property Name="utf.passwords" Type="Bin">&amp;!#!!!!!!!)!%%!Q`````Q:4&gt;(*J&lt;G=!!":!1!!"`````Q!!#6"B=X.X&lt;X*E=Q!"!!%!!!!!!!!!!!</Property>
+	<Property Name="utf.report.atml.create" Type="Bool">false</Property>
+	<Property Name="utf.report.atml.path" Type="Path">ATML report.xml</Property>
+	<Property Name="utf.report.atml.view" Type="Bool">false</Property>
+	<Property Name="utf.report.details.errors" Type="Bool">true</Property>
+	<Property Name="utf.report.details.failed" Type="Bool">true</Property>
+	<Property Name="utf.report.details.passed" Type="Bool">true</Property>
+	<Property Name="utf.report.errors" Type="Bool">true</Property>
+	<Property Name="utf.report.failed" Type="Bool">true</Property>
+	<Property Name="utf.report.html.create" Type="Bool">true</Property>
+	<Property Name="utf.report.html.path" Type="Path">//campus.mcgill.ca/EMF/CPE/skanet1/Desktop/feedforward.html</Property>
+	<Property Name="utf.report.html.view" Type="Bool">false</Property>
+	<Property Name="utf.report.passed" Type="Bool">true</Property>
+	<Property Name="utf.report.skipped" Type="Bool">true</Property>
+	<Property Name="utf.report.sortby" Type="UInt">1</Property>
+	<Property Name="utf.report.stylesheet.flag" Type="Bool">false</Property>
+	<Property Name="utf.report.stylesheet.path" Type="Path"></Property>
+	<Property Name="utf.report.summary" Type="Bool">true</Property>
+	<Property Name="utf.report.txt.create" Type="Bool">false</Property>
+	<Property Name="utf.report.txt.path" Type="Path">ASCII report.txt</Property>
+	<Property Name="utf.report.txt.view" Type="Bool">false</Property>
+	<Property Name="utf.run.changed.days" Type="UInt">1</Property>
+	<Property Name="utf.run.changed.outdated" Type="Bool">false</Property>
+	<Property Name="utf.run.changed.timestamp" Type="Bin">&amp;!#!!!!!!!%!%%"5!!9*2'&amp;U:3^U;7VF!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	<Property Name="utf.run.days.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.includevicallers" Type="Bool">false</Property>
+	<Property Name="utf.run.logfile.flag" Type="Bool">true</Property>
+	<Property Name="utf.run.logfile.overwrite" Type="Bool">true</Property>
+	<Property Name="utf.run.logfile.path" Type="Path">test execution log.txta/campus.mcgill.ca/EMF/CPE/skanet1/Desktop/feedforward_log.txt</Property>
+	<Property Name="utf.run.modified.last.run.flag" Type="Bool">true</Property>
+	<Property Name="utf.run.priority.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.priority.value" Type="UInt">5</Property>
+	<Property Name="utf.run.statusfile.flag" Type="Bool">false</Property>
+	<Property Name="utf.run.statusfile.path" Type="Path">//campus.mcgill.ca/EMF/CPE/skanet1/Desktop/feedforward_log.txt</Property>
+	<Property Name="utf.run.timestamp.flag" Type="Bool">false</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -24,6 +79,10 @@
 				<Property Name="utf.test.bind" Type="Str"></Property>
 				<Property Name="utf.vector.test.bind" Type="Str">270C4944-D015-FC8E-A94D-5401FE926F6F</Property>
 			</Item>
+			<Item Name="test_feedforward.lvtest" Type="TestItem" URL="../test_feedforward.lvtest">
+				<Property Name="utf.test.bind" Type="Str">FeedForward.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">B41F27DC-EDD3-D976-1956-169FFB14A8BB</Property>
+			</Item>
 			<Item Name="test_partial.lvtest" Type="TestItem" URL="../test_partial.lvtest">
 				<Property Name="utf.test.bind" Type="Str"></Property>
 				<Property Name="utf.vector.test.bind" Type="Str">F46F8262-286D-5FC8-CBD8-30C547DD21FA</Property>
@@ -37,6 +96,11 @@
 				<Property Name="utf.vector.test.bind" Type="Str">6B2AB298-2260-1EC5-168E-7D516BB03184</Property>
 			</Item>
 		</Item>
+		<Item Name="decision.vi" Type="VI" URL="../decision.vi"/>
+		<Item Name="FeedForward.vi" Type="VI" URL="../FeedForward.vi"/>
+		<Item Name="partial.vi" Type="VI" URL="../partial.vi"/>
+		<Item Name="sigmoid.vi" Type="VI" URL="../sigmoid.vi"/>
+		<Item Name="update.vi" Type="VI" URL="../update.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -95,17 +159,7 @@
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
 			<Property Name="crio.Type" Type="Str">myRIO-1900</Property>
 		</Item>
-		<Item Name="decision.vi" Type="VI" URL="../decision.vi"/>
-		<Item Name="FeedForward.vi" Type="VI" URL="../FeedForward.vi"/>
-		<Item Name="partial.vi" Type="VI" URL="../partial.vi"/>
-		<Item Name="sigmoid.vi" Type="VI" URL="../sigmoid.vi"/>
-		<Item Name="update.vi" Type="VI" URL="../update.vi"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
