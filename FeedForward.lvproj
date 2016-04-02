@@ -79,9 +79,8 @@
 				<Property Name="utf.test.bind" Type="Str"></Property>
 				<Property Name="utf.vector.test.bind" Type="Str">270C4944-D015-FC8E-A94D-5401FE926F6F</Property>
 			</Item>
-			<Item Name="test_feedforward.lvtest" Type="TestItem" URL="../test_feedforward.lvtest">
-				<Property Name="utf.test.bind" Type="Str">FeedForward.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">B41F27DC-EDD3-D976-1956-169FFB14A8BB</Property>
+			<Item Name="test_neuron.lvtest" Type="TestItem" URL="../test_neuron.lvtest">
+				<Property Name="utf.vector.test.bind" Type="Str">43465679-4F3A-C154-1C6A-69F0F8ED9790</Property>
 			</Item>
 			<Item Name="test_partial.lvtest" Type="TestItem" URL="../test_partial.lvtest">
 				<Property Name="utf.test.bind" Type="Str"></Property>
@@ -97,7 +96,7 @@
 			</Item>
 		</Item>
 		<Item Name="decision.vi" Type="VI" URL="../decision.vi"/>
-		<Item Name="FeedForward.vi" Type="VI" URL="../FeedForward.vi"/>
+		<Item Name="neuron.vi" Type="VI" URL="../neuron.vi"/>
 		<Item Name="partial.vi" Type="VI" URL="../partial.vi"/>
 		<Item Name="sigmoid.vi" Type="VI" URL="../sigmoid.vi"/>
 		<Item Name="update.vi" Type="VI" URL="../update.vi"/>
