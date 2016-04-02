@@ -184,6 +184,7 @@ AddOutputFilter chunkFilter
 		<Item Name="DataAcquisition.vi" Type="VI" URL="../DataAcquisition.vi"/>
 		<Item Name="decision.vi" Type="VI" URL="../decision.vi"/>
 		<Item Name="FeedForward.vi" Type="VI" URL="../FeedForward.vi"/>
+		<Item Name="NeuralNetwork.vi" Type="VI" URL="../NeuralNetwork.vi"/>
 		<Item Name="neuron.vi" Type="VI" URL="../neuron.vi"/>
 		<Item Name="partial.vi" Type="VI" URL="../partial.vi"/>
 		<Item Name="sigmoid.vi" Type="VI" URL="../sigmoid.vi"/>
