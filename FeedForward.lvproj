@@ -100,11 +100,14 @@
 			</Item>
 		</Item>
 		<Item Name="BackProp.vi" Type="VI" URL="../BackProp.vi"/>
+		<Item Name="dE_dNet.vi" Type="VI" URL="../dE_dNet.vi"/>
 		<Item Name="decision.vi" Type="VI" URL="../decision.vi"/>
 		<Item Name="neuron.vi" Type="VI" URL="../neuron.vi"/>
 		<Item Name="partial.vi" Type="VI" URL="../partial.vi"/>
 		<Item Name="sigmoid.vi" Type="VI" URL="../sigmoid.vi"/>
+		<Item Name="TotalError.vi" Type="VI" URL="../TotalError.vi"/>
 		<Item Name="update.vi" Type="VI" URL="../update.vi"/>
+		<Item Name="WeightUpdate.vi" Type="VI" URL="../WeightUpdate.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
