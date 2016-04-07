@@ -75,6 +75,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="tests" Type="Folder">
+			<Item Name="test_backprop.lvtest" Type="TestItem" URL="../test_backprop.lvtest">
+				<Property Name="utf.test.bind" Type="Str">BackProp.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">A6D8786B-EA89-AC4D-2630-FC77113AF0D8</Property>
+			</Item>
 			<Item Name="test_decision.lvtest" Type="TestItem" URL="../test_decision.lvtest">
 				<Property Name="utf.test.bind" Type="Str"></Property>
 				<Property Name="utf.vector.test.bind" Type="Str">270C4944-D015-FC8E-A94D-5401FE926F6F</Property>
@@ -95,12 +99,16 @@
 				<Property Name="utf.vector.test.bind" Type="Str">6B2AB298-2260-1EC5-168E-7D516BB03184</Property>
 			</Item>
 		</Item>
+		<Item Name="BackProp.vi" Type="VI" URL="../BackProp.vi"/>
+		<Item Name="dE_dNet.vi" Type="VI" URL="../dE_dNet.vi"/>
 		<Item Name="decision.vi" Type="VI" URL="../decision.vi"/>
 		<Item Name="FeedForward.vi" Type="VI" URL="../FeedForward.vi"/>
 		<Item Name="neuron.vi" Type="VI" URL="../neuron.vi"/>
 		<Item Name="partial.vi" Type="VI" URL="../partial.vi"/>
 		<Item Name="sigmoid.vi" Type="VI" URL="../sigmoid.vi"/>
+		<Item Name="TotalError.vi" Type="VI" URL="../TotalError.vi"/>
 		<Item Name="update.vi" Type="VI" URL="../update.vi"/>
+		<Item Name="WeightUpdate.vi" Type="VI" URL="../WeightUpdate.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
