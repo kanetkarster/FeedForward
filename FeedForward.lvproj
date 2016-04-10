@@ -84,6 +84,7 @@
 				<Property Name="utf.vector.test.bind" Type="Str">270C4944-D015-FC8E-A94D-5401FE926F6F</Property>
 			</Item>
 			<Item Name="test_neuron.lvtest" Type="TestItem" URL="../test_neuron.lvtest">
+				<Property Name="utf.test.bind" Type="Str"></Property>
 				<Property Name="utf.vector.test.bind" Type="Str">43465679-4F3A-C154-1C6A-69F0F8ED9790</Property>
 			</Item>
 			<Item Name="test_partial.lvtest" Type="TestItem" URL="../test_partial.lvtest">
