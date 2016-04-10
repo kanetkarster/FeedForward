@@ -193,6 +193,7 @@ AddOutputFilter chunkFilter
 		<Item Name="NeuralNetwork.vi" Type="VI" URL="../NeuralNetwork.vi"/>
 		<Item Name="neuron.vi" Type="VI" URL="../neuron.vi"/>
 		<Item Name="partial.vi" Type="VI" URL="../partial.vi"/>
+		<Item Name="RandomArray.vi" Type="VI" URL="../RandomArray.vi"/>
 		<Item Name="sigmoid.vi" Type="VI" URL="../sigmoid.vi"/>
 		<Item Name="TotalError.vi" Type="VI" URL="../TotalError.vi"/>
 		<Item Name="update.vi" Type="VI" URL="../update.vi"/>
