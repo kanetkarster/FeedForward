@@ -182,6 +182,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="BackProp.vi" Type="VI" URL="../BackProp.vi"/>
+		<Item Name="BuildProbabilities.vi" Type="VI" URL="../BuildProbabilities.vi"/>
 		<Item Name="Chassis" Type="myRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -190,6 +191,7 @@ AddOutputFilter chunkFilter
 		<Item Name="dE_dNet.vi" Type="VI" URL="../dE_dNet.vi"/>
 		<Item Name="decision.vi" Type="VI" URL="../decision.vi"/>
 		<Item Name="FeedForward.vi" Type="VI" URL="../FeedForward.vi"/>
+		<Item Name="GetExpectedOutputs.vi" Type="VI" URL="../GetExpectedOutputs.vi"/>
 		<Item Name="NeuralNetwork.vi" Type="VI" URL="../NeuralNetwork.vi"/>
 		<Item Name="neuron.vi" Type="VI" URL="../neuron.vi"/>
 		<Item Name="partial.vi" Type="VI" URL="../partial.vi"/>
