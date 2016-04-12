@@ -194,6 +194,7 @@ AddOutputFilter chunkFilter
 		<Item Name="GetExpectedOutputs.vi" Type="VI" URL="../GetExpectedOutputs.vi"/>
 		<Item Name="NeuralNetwork.vi" Type="VI" URL="../NeuralNetwork.vi"/>
 		<Item Name="neuron.vi" Type="VI" URL="../neuron.vi"/>
+		<Item Name="new_get_opinion.vi" Type="VI" URL="../new_get_opinion.vi"/>
 		<Item Name="new_NeuralNetwork.vi" Type="VI" URL="../new_NeuralNetwork.vi"/>
 		<Item Name="new_neuron.vi" Type="VI" URL="../new_neuron.vi"/>
 		<Item Name="partial.vi" Type="VI" URL="../partial.vi"/>
