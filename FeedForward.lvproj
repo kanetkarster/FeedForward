@@ -76,7 +76,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="tests" Type="Folder">
 			<Item Name="test_backprop.lvtest" Type="TestItem" URL="../test_backprop.lvtest">
-				<Property Name="utf.test.bind" Type="Str">BackProp.vi</Property>
+				<Property Name="utf.test.bind" Type="Str"></Property>
 				<Property Name="utf.vector.test.bind" Type="Str">A6D8786B-EA89-AC4D-2630-FC77113AF0D8</Property>
 			</Item>
 			<Item Name="test_decision.lvtest" Type="TestItem" URL="../test_decision.lvtest">
@@ -194,6 +194,8 @@ AddOutputFilter chunkFilter
 		<Item Name="GetExpectedOutputs.vi" Type="VI" URL="../GetExpectedOutputs.vi"/>
 		<Item Name="NeuralNetwork.vi" Type="VI" URL="../NeuralNetwork.vi"/>
 		<Item Name="neuron.vi" Type="VI" URL="../neuron.vi"/>
+		<Item Name="new_NeuralNetwork.vi" Type="VI" URL="../new_NeuralNetwork.vi"/>
+		<Item Name="new_neuron.vi" Type="VI" URL="../new_neuron.vi"/>
 		<Item Name="partial.vi" Type="VI" URL="../partial.vi"/>
 		<Item Name="RandomArray.vi" Type="VI" URL="../RandomArray.vi"/>
 		<Item Name="sigmoid.vi" Type="VI" URL="../sigmoid.vi"/>
