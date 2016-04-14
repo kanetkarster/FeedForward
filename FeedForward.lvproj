@@ -182,28 +182,20 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="BackProp.vi" Type="VI" URL="../BackProp.vi"/>
-		<Item Name="BuildProbabilities.vi" Type="VI" URL="../BuildProbabilities.vi"/>
 		<Item Name="Chassis" Type="myRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
 			<Property Name="crio.Type" Type="Str">myRIO-1900</Property>
 		</Item>
+		<Item Name="DataAcquisition.vi" Type="VI" URL="../DataAcquisition.vi"/>
 		<Item Name="dE_dNet.vi" Type="VI" URL="../dE_dNet.vi"/>
 		<Item Name="decision.vi" Type="VI" URL="../decision.vi"/>
-		<Item Name="FeedForward.vi" Type="VI" URL="../FeedForward.vi"/>
-		<Item Name="GetExpectedOutputs.vi" Type="VI" URL="../GetExpectedOutputs.vi"/>
 		<Item Name="NeuralNetwork.vi" Type="VI" URL="../NeuralNetwork.vi"/>
-		<Item Name="neuron.vi" Type="VI" URL="../neuron.vi"/>
 		<Item Name="new_get_opinion.vi" Type="VI" URL="../new_get_opinion.vi"/>
 		<Item Name="new_nerualnetwork_test.vi" Type="VI" URL="../new_nerualnetwork_test.vi"/>
 		<Item Name="new_NeuralNetwork.vi" Type="VI" URL="../new_NeuralNetwork.vi"/>
 		<Item Name="new_neuron.vi" Type="VI" URL="../new_neuron.vi"/>
-		<Item Name="partial.vi" Type="VI" URL="../partial.vi"/>
-		<Item Name="RandomArray.vi" Type="VI" URL="../RandomArray.vi"/>
 		<Item Name="sigmoid.vi" Type="VI" URL="../sigmoid.vi"/>
-		<Item Name="TotalError.vi" Type="VI" URL="../TotalError.vi"/>
-		<Item Name="update.vi" Type="VI" URL="../update.vi"/>
-		<Item Name="WeightUpdate.vi" Type="VI" URL="../WeightUpdate.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Accelerometer Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Accelerometer/typedefs/Accelerometer Channels Enum.ctl"/>
@@ -275,10 +267,10 @@ AddOutputFilter chunkFilter
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="DataAcquisition.vi" Type="VI" URL="../DataAcquisition.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="WeightUpdate.vi" Type="VI" URL="../WeightUpdate.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
