@@ -189,6 +189,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="DataAcquisition.vi" Type="VI" URL="../DataAcquisition.vi"/>
 		<Item Name="dE_dNet.vi" Type="VI" URL="../dE_dNet.vi"/>
+		<Item Name="dE_dNet_fp.vi" Type="VI" URL="../dE_dNet_fp.vi"/>
 		<Item Name="decision.vi" Type="VI" URL="../decision.vi"/>
 		<Item Name="FullBackProp_multiple.vi" Type="VI" URL="../FullBackProp_multiple.vi"/>
 		<Item Name="GetSampleValues.vi" Type="VI" URL="../GetSampleValues.vi"/>
@@ -262,6 +263,7 @@ AddOutputFilter chunkFilter
 				<Item Name="myRIO v1.0 Timer IRQ Info FGV.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/vis/myRIO v1.0 Timer IRQ Info FGV.vi"/>
 				<Item Name="myRIO v1.0 Unreserve Channel.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Unreserve Channel.vi"/>
 				<Item Name="myRIO v1.0 Wait for RDY.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/System/vis/myRIO v1.0 Wait for RDY.vi"/>
+				<Item Name="myRIO v1.0 Write DIO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/DIO/vis/myRIO v1.0 Write DIO.vi"/>
 				<Item Name="myRIO v1.1 Accelerometer Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Accelerometer/typedefs/myRIO v1.1 Accelerometer Channels Enum.ctl"/>
 				<Item Name="myRIO v1.1 DIO Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/DIO/typedefs/myRIO v1.1 DIO Channels Enum.ctl"/>
 				<Item Name="myRIO v1.1 FPGA.lvbitx" Type="Document" URL="/&lt;vilib&gt;/myRIO/FPGA/bitfiles/myRIO v1.1 FPGA.lvbitx"/>
@@ -288,6 +290,7 @@ AddOutputFilter chunkFilter
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="WaitForButtonRelease.vi" Type="VI" URL="../WaitForButtonRelease.vi"/>
 			<Item Name="WeightUpdate.vi" Type="VI" URL="../WeightUpdate.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
